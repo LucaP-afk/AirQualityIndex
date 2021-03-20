@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Air Quality Index</title>
+        <meta charset="utf-8">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=RocknRoll+One&display=swap');</style>
+        <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body onkeypress="if(event.keyCode == 13){searchCityData()}" onload="myFunction();localization();">
+        <div class="titleContainer">
+            <h1>Air Quality Index</h1>
+        </div>
+        <div class='wrapper'>
+            <div class='search-input'>
+                <input type='text' id='searchCity' placeholder="Search city" autofocus>
+                <div class='autocom-box'></div>
+                <div class='icon'><i class='fas fa-search' onclick="searchCityData()"></i></div>
+            </div>
+            <div id='errorMessage'></div>
+        </div>
+        <div id='loader'></div>
+        <div id='totalResults'>
+            <div class="stationName" id='stationName'></div>
+            <div class='updatedOn' id='updatedOn'></div>
+            <div class="statement">
+                <div class="squareResult" id='pm25'></div>
+                <div class="container">
+                    <div class="judgement" id='judgement'></div>
+                    <div class="dataResults">
+                        <div class='aqiResults' id='aqiResults'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer'>
+            <p>Legend</p>
+            <div class="good"><p>0 - 50</p><span class='goodDescription'>Air quality is considered satisfactory, and air pollution poses little or no risk.</span></div>
+            <div class="moderate"><p>51 - 100</p><span class='moderateDescription'>Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.</span></div>
+            <div class="unhealthy"><p>101-150</p><span class='unhealthyDescription'>Members of sensitive groups may experience health effects. The general public is not likely to be affected.</span></div>
+            <div class="unhealthyPlus"><p>151 - 200</p><span class='unhealthyPlusDescription'>Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.</span></div>
+            <div class="veryUnhealthy"><p>201 - 300</p><span class='veryUnhealthyDescription'>Health warnings of emergency conditions. The entire population is more likely to be affected.</span></div>
+            <div class="hazardous"><p>300+</p><span class='hazardousDescription'>Health alert: everyone may experience more serious health effects.</span></div>
+        </div>
+        <script src='main.js'></script>
+    </body>
+</html>
