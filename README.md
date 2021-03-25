@@ -7,6 +7,7 @@ Thanks to the 'Aqicn' API, I was able to develop a web app that can provide info
 The web app has the geolocation function. <br>
 <img width="1258" alt="Schermata 2021-03-25 alle 12 33 10" src="https://user-images.githubusercontent.com/76740200/112466611-58260780-8d66-11eb-86be-6992be3dfda3.png">
 <br>
+You can also see some information about the pollution result moving the cursor pointer on the legend.
 ***
 <h1><b>How to use</b></h1>
 <br>
