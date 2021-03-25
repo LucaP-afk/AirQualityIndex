@@ -10,4 +10,9 @@ The web app has the geolocation function. <br>
 <img width="1258" alt="Schermata 2021-03-25 alle 12 33 10" src="https://user-images.githubusercontent.com/76740200/112466611-58260780-8d66-11eb-86be-6992be3dfda3.png">
 <br>
 ***
+#How to use
+<br>
+Require an API KEY to aqicn.org
+Let API_KEY = yourPersonalKey
+***
 You can try it here -> https://aqipignorio.web.app
