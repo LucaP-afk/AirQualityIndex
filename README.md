@@ -3,7 +3,7 @@
 ***
 Thanks to the 'Aqicn' API, I was able to develop a web app that can provide informations about the pollution level of cities.
 <br><br>
-![GIFAQI](https://user-images.githubusercontent.com/76740200/112471039-b1dd0080-8d6b-11eb-9ead-ac60b2b0bdc6.mov)
+![Video](https://user-images.githubusercontent.com/76740200/112483920-c3c5a000-8d79-11eb-8ccb-739021c05127.gif)
 
 <br><br>
 The web app has the geolocation function <br>
